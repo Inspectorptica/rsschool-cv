@@ -6,4 +6,12 @@ ___Тver, Russia___
 * **Telegram: @inspectorptica**
 ## About: ##
 I’m taking a front-end development course at RS School. My goal at the moment is to find a mentor or internship in the company as a front-end developer to increase my experience. 
-gi
+##  Hard Skills: ##
+* **HTML/basics**
+* **CSS/basics**
+* **JavaScript**
+* **Git/Github**
+##  Soft Skills: ##
+* **Analytical skills**
+* **Organized**
+* **Eager to learn**
