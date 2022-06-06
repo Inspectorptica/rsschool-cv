@@ -1,6 +1,6 @@
-# Kseniia Tsvetkova#
+# Kseniia Tsvetkova #
 ___Junior Frontend Developer___
-___Тver, Russia___      
+___Тver, Russia___   g   
 ## Contacts: ##
 * **Email: inspectorptica@yandex.ru**
 * **Telegram: @inspectorptica**
