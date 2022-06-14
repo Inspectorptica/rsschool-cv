@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Inspectorptica.github.io/rsschool-cv/
