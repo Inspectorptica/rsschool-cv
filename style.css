@@ -81,6 +81,29 @@
     color: #6c6253;
   }
 
+  .footer {
+    background-color: #6c6253;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    width: 150px;
+  }
+  
+  .git {
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: normal;
+    color: #b79e9e;
+    text-decoration: none;
+  }
+
    li a {
     text-decoration: none; /* Подчеркивание у ссылок убираем */
     color: #b79e9e; /* Цвет текста */
