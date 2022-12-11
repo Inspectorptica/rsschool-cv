@@ -11,3 +11,21 @@ Education:
 Tver State Technical University 
 Bachelor's degree     
 engineer
+Languages
+Russian (Native)
+English: B2
+Courses
+JavaScript Basics
+HTML Basics
+CSS Basics
+Hard Skills:
+HTML/basics
+CSS/basics
+JavaScript
+Git/Github
+Soft Skills:
+Analytical skills
+Organized**
+Eager to learn
+Code Examples
+console.log('Hello, World!');
