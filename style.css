@@ -57,6 +57,15 @@ html, body {
   text-align: center ;
 }
 
+.subtitle {
+  margin-bottom: 5px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--header-text);
+  text-align: center;
+}
+
 /*navigation start*/
 
 a, a:link, a:visited {
@@ -201,3 +210,48 @@ nav {
   }
 
   /*contacts end*/
+
+  /*skills start*/
+
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .skills__hard {
+    padding: 80px;
+    min-width: 350px;
+    min-height: 350px;
+    border-radius: 100%;
+    background-color: var(--dark-bg);
+    color: var(--header-text);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+  }
+
+  .skills__soft {
+    padding: 80px;
+    min-width: 350px;
+    min-height: 350px;
+    border-radius: 100%;
+    background-color: var(--dark-bg);
+    color: var(--header-text);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.3;
+  }
+  
+ 
