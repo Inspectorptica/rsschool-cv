@@ -3,9 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>cv</title>
+    <title>CV Tsvetkova Ksenia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="frog.ico" type="image/x-icon">
 </head>
 <body>
-    <p>rcg</p>
+    <nav class="nav">
+        <div class="container">
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="#cont" class="nav-list__link nav-list__link--active">Contacts</a></li>
+                <li class="nav-list__item"><a href="#sk" class="nav-list__link nav-list__link--active">Skills</a></li>
+                <li class="nav-list__item"><a href="#codeex" class="nav-list__link nav-list__link--active">Code Examples</a></li>
+                <li class="nav-list__item"><a href="#eproject" class="nav-list__link nav-list__link--active">Educational project</a></li>
+                <li class="nav-list__item"><a href="#el" class="nav-list__link nav-list__link--active">Education and Languages</a></li>
+            </ul>
+        </div>
+    </nav>
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__summary">
+                <h1 class="summary__title">
+                    <strong>Hi, my name is <em>Tsvetkova Ksenia</em></strong><br>
+                    a Junior Frontend Developer
+                </h1>
+                <div class="summary__text">
+                    <p>Passionate and hard-working junior frontend developer with a strong interest in web development and design. <br>I prefer to learn and adapt to new technologies in order to create an intuitive and user-friendly web interface. <br> My goal at the moment is to find a mentor or internship in the company  to increase my experience.</p>
+                </div>
+            </div> 
+            <div class="photo">
+            </div>   
+        </div>
+    </header>
+    <main class="main">
+        <section class="section" id="cont">
+            <div class="container">
+                <h2 class="main__title">Contacts</h2>
+                <ul class="contaсts__list">
+                    <li class="contaсt">
+                        Email: inspectorptica@yandex.ru
+                    </li>
+                    <li class="contaсt">
+                        Telegram: @tsksse
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="section" id="sk">
+            <div class="container">
+                <h2 class="main__title">Skills</h2>
+                <div class="skills">
+                    <div class="skills__hard">
+                        <h3 class="subtitle">Hard Skills:</h3>
+                        <ul class="skills__list">
+                            <li>HTML/basics</li>
+                            <li>CSS/basics</li>
+                            <li>JavaScript</li>
+                            <li>Git/Github</li>
+                        </ul>
+                    </div>
+                    <div class="skills__soft">
+                        <h3 class="subtitle">Soft Skills:</h3>
+                        <ul class="skills__list">
+                            <li>Adaptive</li>
+                            <li>Analytical skills</li>
+                            <li>To inspire</li>
+                            <li>Time management</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="codeex">
+            <div class="container">
+                <h2 class="main__title">Code Examples</h2>
+                <div class="code">
+                    <code>
+                        console.log('Hello, World!')
+                    </code> 
+                </div>
+            </div>
+        </section>
+        <section class="section" id="eproject">
+            <div class="container">
+                <h2 class="main__title">Educational projects</h2>
+                <div class="project">
+                    <form action="https://github.com/Inspectorptica" target="_blank">
+                        <button class="btn default">Сlick me</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="el">
+            <div class="container">
+                <h2 class="main__title">Information about education<br> and level of English</h2>
+                <div class="education">
+                    <p class="education__text">Tver State Technical University<br>Bachelor's degree<br>Engineer</p>
+                </div>
+                <div class="dots">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <h3 class="level__title">Level of English:</h3>
+                <ul class="level__list">
+                  <li>Russian (Native)</li>
+                  <li>English: B2</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__container">
+              <p class="year">2023</p>
+              <a href="https://github.com/Inspectorptica"> <img class="git" src="logo2.png" alt="git"></a>
+              <a href="https://rs.school/"> <img class="logo" src="logo.svg" alt="logo rsschool"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
